@@ -1,0 +1,13 @@
+
+{
+    "name": "triviamind/api",
+    "description": "TriviaMind API Backend",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:$PORT"
+    }
+}

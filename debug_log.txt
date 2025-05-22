@@ -1,0 +1,1119 @@
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => FÃ¡cil
+    [categorias] => Historia,Ciencia
+)
+
+Categorías procesadas: 'Historia','Ciencia'
+Dificultad: FÃ¡cil
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia') AND p.nivel = 'FÃ¡cil' ORDER BY RAND() LIMIT 100
+Número de filas: 0
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => FÃ¡cil
+    [categorias] => Historia,Ciencia
+)
+
+Categorías procesadas: 'Historia','Ciencia'
+Dificultad: FÃ¡cil
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia') AND p.nivel = 'FÃ¡cil' ORDER BY RAND() LIMIT 100
+Número de filas: 0
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia,Ciencia
+)
+
+Categorías procesadas: 'Historia','Ciencia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 68
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia,Ciencia
+)
+
+Categorías procesadas: 'Historia','Ciencia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 68
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 20
+    [dificultad] => 3
+    [categorias] => Historia,Ciencia,Literatura,GeografÃ­a
+)
+
+Categorías procesadas: 'Historia','Ciencia','Literatura','GeografÃ­a'
+Dificultad: 3
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia','Literatura','GeografÃ­a') AND p.nivel = '3' ORDER BY RAND() LIMIT 200
+Número de filas: 72
+Preguntas procesadas: 18
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 20
+    [dificultad] => 3
+    [categorias] => Historia,Ciencia,Literatura,GeografÃ­a
+)
+
+Categorías procesadas: 'Historia','Ciencia','Literatura','GeografÃ­a'
+Dificultad: 3
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','Ciencia','Literatura','GeografÃ­a') AND p.nivel = '3' ORDER BY RAND() LIMIT 200
+Número de filas: 72
+Preguntas procesadas: 18
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => GeografÃ­a
+)
+
+Categorías procesadas: 'GeografÃ­a'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('GeografÃ­a') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 44
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia,GeografÃ­a
+)
+
+Categorías procesadas: 'Historia','GeografÃ­a'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','GeografÃ­a') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 84
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => GeografÃ­a
+)
+
+Categorías procesadas: 'GeografÃ­a'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('GeografÃ­a') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 44
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 15
+    [dificultad] => 2
+    [categorias] => Literatura,TecnologÃ­a
+)
+
+Categorías procesadas: 'Literatura','TecnologÃ­a'
+Dificultad: 2
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Literatura','TecnologÃ­a') AND p.nivel = '2' ORDER BY RAND() LIMIT 150
+Número de filas: 60
+Preguntas procesadas: 15
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => GeografÃ­a
+)
+
+Categorías procesadas: 'GeografÃ­a'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('GeografÃ­a') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 44
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 2
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 2
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '2' ORDER BY RAND() LIMIT 100
+Número de filas: 16
+Preguntas procesadas: 4
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 3
+    [categorias] => GeografÃ­a
+)
+
+Categorías procesadas: 'GeografÃ­a'
+Dificultad: 3
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('GeografÃ­a') AND p.nivel = '3' ORDER BY RAND() LIMIT 100
+Número de filas: 20
+Preguntas procesadas: 5
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => GeografÃ­a
+)
+
+Categorías procesadas: 'GeografÃ­a'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('GeografÃ­a') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 44
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Literatura
+)
+
+Categorías procesadas: 'Literatura'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Literatura') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 28
+Preguntas procesadas: 7
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 2
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 2
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '2' ORDER BY RAND() LIMIT 100
+Número de filas: 16
+Preguntas procesadas: 4
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 3
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 3
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '3' ORDER BY RAND() LIMIT 100
+Número de filas: 16
+Preguntas procesadas: 4
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 2
+    [categorias] => Historia,GeografÃ­a,Ciencia
+)
+
+Categorías procesadas: 'Historia','GeografÃ­a','Ciencia'
+Dificultad: 2
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia','GeografÃ­a','Ciencia') AND p.nivel = '2' ORDER BY RAND() LIMIT 100
+Número de filas: 72
+Preguntas procesadas: 10
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 20
+    [dificultad] => 3
+    [categorias] => Literatura,TecnologÃ­a,MatemÃ¡ticas,Deportes
+)
+
+Categorías procesadas: 'Literatura','TecnologÃ­a','MatemÃ¡ticas','Deportes'
+Dificultad: 3
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Literatura','TecnologÃ­a','MatemÃ¡ticas','Deportes') AND p.nivel = '3' ORDER BY RAND() LIMIT 200
+Número de filas: 108
+Preguntas procesadas: 20
+Solicitud recibida: Array
+(
+    [numero_preguntas] => 10
+    [dificultad] => 1
+    [categorias] => Historia
+)
+
+Categorías procesadas: 'Historia'
+Dificultad: 1
+SQL: SELECT p.id AS pregunta_id, p.texto AS pregunta, 
+                       c.nombre AS categoria, p.nivel, 
+                       r.id AS respuesta_id, r.texto AS respuesta, 
+                       r.es_correcta 
+                FROM preguntas p
+                JOIN respuestas r ON p.id = r.id_pregunta
+                JOIN categorias c ON p.categoria_id = c.id
+                WHERE c.nombre IN ('Historia') AND p.nivel = '1' ORDER BY RAND() LIMIT 100
+Número de filas: 40
+Preguntas procesadas: 10
