@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: triviamind-api
+    env: php
+    buildCommand: composer install
+    startCommand: php -S 0.0.0.0:$PORT
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: SMTP_HOST
+        value: smtp-relay.sendinblue.com
+      - key: SMTP_USERNAME
+        value: andreaescototurcios@gmail.com
+      - key: SMTP_PASSWORD
+        sync: false
